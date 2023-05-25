@@ -1,0 +1,213 @@
+.register {
+    background: url(../img/register.png) no-repeat;
+
+    &__info {
+
+        padding: 371px 0 60px 82px;
+
+        &-title {
+            color: $white;
+            font-family: Oswald;
+            font-size: 125px;
+            font-weight: 400;
+            margin-bottom: 37px;
+        }
+
+        &-subtitle {
+            width: 709px;
+            height: 94px;
+            color: $white;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 44px;
+        }
+
+        &-button {
+            width: 322px;
+            height: 65px;
+            border-radius: 4px;
+            background-color: $tango;
+            font-family: Oswald;
+            font-size: 29px;
+            font-weight: 400;
+            color: $white;
+        }
+    }
+}
+
+.dance {
+    height: 974px;
+    background: url(../img/shape.png);
+
+    &__content {
+
+        padding: 105px 99px 100px 98px;
+
+        &-info {
+            text-align: center;
+            margin: 0 auto;
+            width: 827px;
+
+            &-title {
+                font-family: Oswald;
+                font-size: 75px;
+                font-weight: 700;
+                color: $white;
+            }
+
+            &-subtitle {
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 400;
+                color: $white;
+                padding: 59px 0 83px 0;
+            }
+        }
+
+
+        &-cart {
+            display: flex;
+            justify-content: space-between;
+
+            &-item {
+                width: 372px;
+                height: 493px;
+                background-color: $main-shaft;
+                text-align: center;
+
+                &-title {
+                    color: $white;
+                    padding: 37px 0 19px 0;
+                    font-family: Oswald;
+                    font-size: 37px;
+                    font-weight: 400;
+                }
+
+                &-subtitle {
+                    color: $white;
+                    font-family: Montserrat;
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.pricing {
+    background: $main-shaft;
+    padding: 100px 103px 100px 102px;
+    text-align: center;
+
+    &__info {
+        margin: 0 auto;
+        width: 827px;
+
+        &-title {
+            color: $white;
+            font-family: Oswald;
+            font-size: 75px;
+            font-weight: 700;
+
+        }
+
+        &-subtitle {
+            color: $white;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 59px 0 85px 0;
+        }
+
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        &-item {
+            width: 372px;
+            height: 402px;
+            background: $tango;
+            border-radius: 8px;
+            align-items: center;
+            padding: 64px 0 27px 0;
+        }
+
+        &-title {
+            padding-top: 59px;
+            color: $white;
+            font-family: "Oswald - Semi Bold";
+            font-size: 37px;
+            font-weight: 400;
+        }
+
+        &-subtitle {
+            color: $white;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-weight: 400;
+            padding-top: 35px;
+            padding-bottom: 30px;
+        }
+
+        &-button {
+            background: $main-shaft;
+            width: 322px;
+            height: 65px;
+            border-radius: 4px;
+            color: $white;
+            font-family: Oswald;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+}
+
+.amazing {
+    display: flex;
+    justify-content: space-between;
+    background: $tango;
+
+
+
+    &__text {
+
+        &-padding {
+            padding: 335px 0 227px 88px;
+        }
+
+        &-title {
+            color: $white;
+            font-family: Oswald;
+            font-size: 75px;
+            font-weight: 700;
+        }
+
+        &-subtitle {
+            margin: 59px 0 73px 0;
+            color: $white;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        &-button {
+            text-align: center;
+            width: 322px;
+            height: 65px;
+            border-radius: 4px;
+            background-color: #303030;
+
+            &-text {
+                text-decoration: none;
+                color: $white;
+                font-family: Oswald;
+                font-size: 29px;
+                font-weight: 400;
+            }
+        }
+    }
+}
