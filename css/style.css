@@ -269,7 +269,7 @@ table {
 }
 
 .container {
-  width: 1330px;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -279,7 +279,7 @@ table {
 }
 .header__main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 103px;
 }
@@ -299,4 +299,183 @@ table {
 .header__menu-item > a {
   text-decoration: none;
   color: #fff;
+}
+
+.register {
+  background: url(../img/register.png) no-repeat;
+}
+.register__info {
+  padding: 371px 0 60px 82px;
+}
+.register__info-title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 125px;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+.register__info-subtitle {
+  width: 709px;
+  height: 94px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+.register__info-button {
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #e8631c;
+  font-family: Oswald;
+  font-size: 29px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.dance {
+  height: 974px;
+  background: url(../img/shape.png);
+}
+.dance__content {
+  padding: 105px 99px 100px 98px;
+}
+.dance__content-info {
+  text-align: center;
+  margin: 0 auto;
+  width: 827px;
+}
+.dance__content-info-title {
+  font-family: Oswald;
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+}
+.dance__content-info-subtitle {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  padding: 59px 0 83px 0;
+}
+.dance__content-cart {
+  display: flex;
+  justify-content: space-between;
+}
+.dance__content-cart-item {
+  width: 372px;
+  height: 493px;
+  background-color: #303030;
+  text-align: center;
+}
+.dance__content-cart-item-title {
+  color: #fff;
+  padding: 37px 0 19px 0;
+  font-family: Oswald;
+  font-size: 37px;
+  font-weight: 400;
+}
+.dance__content-cart-item-subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.pricing {
+  background: #303030;
+  padding: 100px 103px 100px 102px;
+  text-align: center;
+}
+.pricing__info {
+  margin: 0 auto;
+  width: 827px;
+}
+.pricing__info-title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 75px;
+  font-weight: 700;
+}
+.pricing__info-subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 59px 0 85px 0;
+}
+.pricing__list {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing__list-item {
+  width: 372px;
+  height: 402px;
+  background: #e8631c;
+  border-radius: 8px;
+  align-items: center;
+  padding: 64px 0 27px 0;
+}
+.pricing__list-title {
+  padding-top: 59px;
+  color: #fff;
+  font-family: "Oswald - Semi Bold";
+  font-size: 37px;
+  font-weight: 400;
+}
+.pricing__list-subtitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.pricing__list-button {
+  background: #303030;
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.amazing {
+  display: flex;
+  justify-content: space-between;
+  background: #e8631c;
+}
+.amazing__text-padding {
+  padding: 335px 0 227px 88px;
+}
+.amazing__text-title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 75px;
+  font-weight: 700;
+}
+.amazing__text-subtitle {
+  margin: 59px 0 73px 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+}
+.amazing__text-button {
+  text-align: center;
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+}
+.amazing__text-button-text {
+  text-decoration: none;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 29px;
+  font-weight: 400;
 }
